@@ -15,9 +15,10 @@ all apologies for that, especially as we do have the results and that, at the ti
 I'm not a data scientist, I'm not sure if the precentage of voters is the most relevant metric or if is the right way to display the resluts and/or if there would be a better way to do this.
 to be honest, I don't really care :)
 
-all the data are processed realtime, this may take a while to load as they're not optimized at all.
+you can check the [online demo](http://www.barradeau.com/2017/170425/elections/#5.85/45.297/3.739/0/43)
 
-you can check the online [demo](http://www.barradeau.com/2017/170425/elections/#5.85/45.297/3.739/0/43)
+all the data are processed in realtime, this may take a while to load as they're not optimized at all.
+
 
 about the controls:
 
