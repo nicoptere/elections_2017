@@ -12,7 +12,7 @@ I wanted to see what the results of the french presidential election would look 
 unfortunately the DOM-TOM couldn't be represented as I couldn't find a clean spreadsheet of their locations and / or said locations would not render properly.
 all apologies for that, especially as we do have the results and that, at the time of writing, these territories are living through unprecedented social unrest.
 
-I'm not a data scientist, I'm not sure if the precentage of voters is the most relevant metric or if is the right way to display the resluts and or if there's would be a better way.
+I'm not a data scientist, I'm not sure if the precentage of voters is the most relevant metric or if is the right way to display the resluts and/or if there would be a better way to do this.
 to be honest, I don't really care :)
 
 all the data are processed realtime, this may take a while to load as they're not optimized at all.
