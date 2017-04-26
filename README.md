@@ -17,6 +17,8 @@ to be honest, I don't really care :)
 
 all the data are processed realtime, this may take a while to load as they're not optimized at all.
 
+you can check the online [demo](http://www.barradeau.com/2017/170425/elections/#5.85/45.297/3.739/0/43)
+
 about the controls:
 
 * check/uncheck the boxes on the left, to make a candidate's result visible or hidden
