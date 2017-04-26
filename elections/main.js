@@ -261,24 +261,26 @@ function initMesh() {
 
     var settings = {
         wireframe:false,
-        gradient:0,
-        threshold:0.05,
-        scale:0
+        opacity:1,
+        threshold:0.25,
+        scale:1
     };
 
-    function updateSettings(){
+    function updateMaterialSettings(){
         materials.forEach(function( mat ){
             mat.wireframe = settings.wireframe;
-            mat.uniforms.useGradient.value = settings.gradient;
+            mat.uniforms.useGradient.value = settings.opacity;
             mat.uniforms.threshold.value = settings.threshold;
             mat.uniforms.scale.value = settings.scale;
         })
     }
 
     var gui = new dat.GUI();
-    gui.add( settings, "wireframe" ).onChange(updateSettings)
-    gui.add( settings, "gradient", 0,1,.1 ).onChange(updateSettings)
-    gui.add( settings, "threshold", 0.01,1,.01 ).onChange(updateSettings)
-    gui.add( settings, "scale", 0,10,.1 ).onChange(updateSettings)
+    gui.add( settings, "wireframe" ).onChange(updateMaterialSettings)
+    gui.add( settings, "opacity", 0,1,.1 ).onChange(updateMaterialSettings)
+    gui.add( settings, "threshold", 0.01,1,.01 ).onChange(updateMaterialSettings)
+    gui.add( settings, "scale", 0,10,.1 ).onChange(updateMaterialSettings)
+
+    updateMaterialSettings();
 
 }
