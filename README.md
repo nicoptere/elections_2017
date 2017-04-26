@@ -34,8 +34,9 @@ the colors are hardcoded, I could'nt think of a meaningful set of colors, there'
 
 ### libraries used
 [threebox](https://github.com/peterqliu/threebox) which uses [THREE.js](https://threejs.org/) and [MapBoxGl.js](https://www.mapbox.com/mapbox-gl-js/api/) under the hood.
-NB: to use the demo, you'll have to specify your Mapbox TOKEN in the config.js file.
-you'll therefore need a MapBox profile to get this token.
+
+**NB**: to use the demo, you'll have to specify your Mapbox TOKEN in the config.js file.
+you'll therefore need a MapBox account to get this to work.
 
 ### data sources
 
