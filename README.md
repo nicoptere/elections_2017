@@ -33,11 +33,12 @@ top right panel
 the colors are hardcoded, I could'nt think of a meaningful set of colors, there's lots of room for imporvement on that side too.
 
 ### libraries used
-[threebox](https://github.com/peterqliu/threebox) which uses [MapBoxGl.js](https://www.mapbox.com/mapbox-gl-js/api/) under the hood.
+[threebox](https://github.com/peterqliu/threebox) which uses [THREE.js](https://threejs.org/) and [MapBoxGl.js](https://www.mapbox.com/mapbox-gl-js/api/) under the hood.
 NB: to use the demo, you'll have to specify your Mapbox TOKEN in the config.js file.
 you'll therefore need a MapBox profile to get this token.
 
 ### data sources
-[Les données des élections](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/)
-[Liste des villes de France en SQL, CSV ou XML](http://sql.sh/736-base-donnees-villes-francaises)
-[natural earth: Admin 0 – Countries](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/)
+
+* [Les données des élections](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/)
+* [Liste des villes de France en SQL, CSV ou XML](http://sql.sh/736-base-donnees-villes-francaises)
+* [natural earth: Admin 0 – Countries](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/)
