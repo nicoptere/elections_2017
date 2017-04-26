@@ -27,7 +27,7 @@ top right panel
 
 * **wireframe** changes the maeshes display (more of a gimmick really)
 * **opacity** controls the opacity of the meshes
-* **threshold** filters the minimum percentage at which a result is displayed
+* **threshold** filters the minimum percentage of votes from which a result is displayed
 * **scale** changes the elevation scale
 
 the colors are hardcoded, I could'nt think of a meaningful set of colors, there's lots of room for imporvement on that side too.
